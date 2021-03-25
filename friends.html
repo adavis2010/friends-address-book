@@ -5,12 +5,25 @@
     <title>Document</title>
 </head>
 <body>
-    <button onclick "enter()name"></button>
-    <label for="name">Name</label>
-    <input type ="text">
-    <div id="name">
-        This is my Friend list.
-    </div>
+    <div></div>
+    <label>Enter friends info:</label>
+    <input id ="iname" type ="text" placeholder="Name"> 
+    <input id ="iemail" type ="text" placeholder = "Email">
+    <input id ="iphone"type ="text" placeholder = "Phone">
+   <button onclick ="addFriend()">Add</button>
+</div>
+<table> 
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+    </tr>
+    </thead>  
+    <tbody id="tbody">
+
+    </tbody>  
+</table>
     
 </body>
 </html>
